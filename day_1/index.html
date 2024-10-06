@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Мой первый сайт</title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <!-- это заголовок первого уровня -->
+        <!-- id, class - атрибуты -->
+        <h1 id="hello-1" class="head">hello</h1>
+        
+        <p>Lorem, ipsum dolor.</p>
+
+        <a href="https://unsplash.com/" target="_blank">Ссылка на unsplash</a><br>
+        <a href="shop.html">Перейти в магазин</a>
+        <a href="Модуль 1,2,3.pdf">Презентация</a>
+
+        <img src="images/pic-1.jpg" alt="Космос" width="200" height="200">
+        <img src="images/pic-2.jpg" alt="Небо" width="200">
+
+        <a href="https://unsplash.com/" target="_blank">
+            <img src="images/pic-2.jpg" alt="Небо" width="200">
+        </a>
+
+        <br>
+
+        <ul>
+            <li>Пермь</li>
+            <li>Самара</li>
+            <li>Ставрополь</li>
+            <li>СПБ</li>
+        </ul>
+
+        <ol type="I">
+            <li>Осень</li>
+            <li>Зима</li>
+            <li>Весна</li>
+            <li>Лето</li>
+        </ol>
+
+        <ul>
+            <li>Milk</li>
+            <li>
+                Cheese
+                <ol>
+                    <li>Blue cheese</li>
+                    <li>Feta</li>
+                </ol>
+            </li>
+        </ul>
+
+        <!-- контейнер для пользователей -->
+        <div class="users" style="display: flex;">
+            <!-- пользователь 1 -->
+            <div class="user user-1">
+                <img src="https://images.unsplash.com/photo-1533578662531-a74302974c72?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Иван Иванов" width="300">
+                <h2>Иван Иванов</h2>
+                <p>Возраст: 22</p>
+                <p>Хобби: спать</p>
+                <a href="#" style="background-color: aquamarine;">Подробнее</a>
+                <a href="#" style="background-color: aquamarine;">Друзья</a>
+            </div>
+            <!-- пользователь 2 -->
+            <div class="user user-2" style="color: blue">
+                <img src="https://images.unsplash.com/photo-1529665730773-4f3fda31a5f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Петр Сидоров" width="300">
+                <h2>Петр Сидоров</h2>
+                <p>Возраст: 44</p>
+                <p>Хобби: есть</p>
+                <a href="#" style="background-color: aquamarine;">Подробнее</a>
+                <a href="#" style="background-color: aquamarine;">Друзья</a>
+            </div>
+            <!-- пользователь 3 -->
+            <div class="user user-3">
+                <img src="https://images.unsplash.com/photo-1521566652839-697aa473761a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Анна Иванова" width="300">
+                <h2>Анна Иванова</h2>
+                <p>Возраст: 14</p>
+                <p>Хобби: гулять</p>
+                <a href="#" style="background-color: aquamarine;">Подробнее</a>
+                <a href="#" style="background-color: aquamarine;">Друзья</a>
+            </div>
+        </div>
+        
+        <form>
+            <h2>Форма регистрации</h2>
+
+            <div class="input-field">
+                <label for="fname">Имя:</label>
+                <input type="text" name="fname" id="fname" placeholder="Введите имя" required>
+            </div>
+
+            <div class="input-field">
+                <label>Фамилия:</label>
+                <input type="text" name="lname">
+            </div>
+
+            <div class="input-field">
+                <label>Логин:</label>
+                <input type="text" name="login">
+            </div>
+
+            <div class="input-field">
+                <label>Электронная почта:</label>
+                <input type="email" name="email">
+            </div>
+
+            <div class="input-field">
+                <label>Пароль:</label>
+                <input type="password" name="password" maxlength="10">
+            </div>
+
+            <div class="input-field">
+                <label for="cars">Choose a car:</label>
+                <select id="cars" name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+
+            <div class="input-field"></div>
+                <input type="submit" value="Зарегистрироваться">
+            </div>
+
+            <!-- index.html ? 
+            fname=Иван
+            &lname=Иванов
+            &login=уцкеук
+            &email=weww%40wewe
+            &password=взщклп9укш
+            &cars=volvo -->
+            
+        </form>
+
+        <hr>
+        <img src="images/pic-1.jpg" alt="Космос" width="200" height="200">
+        <img src="images/pic-2.jpg" alt="Небо" width="200">
+
+        <p style="color: #4142a8; background-color: bisque;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus ullam fuga quibusdam repudiandae voluptate autem vero neque culpa tenetur?</p>
+    </body>
+</html>
