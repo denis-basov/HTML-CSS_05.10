@@ -1,0 +1,38 @@
+.par-1{
+    font-size: 30px;
+    background-color: blueviolet;
+    padding: 30px;
+}
+
+.par-2{
+    font-size: 30px;
+    background-color: rgb(110, 226, 43);
+    padding: 30px;
+}
+
+
+
+/* users */
+.users{
+    max-width: 1400px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+
+    display: grid;
+    /* 8 колонок по 1fr */
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+
+.users .user{
+    background-color: rgb(201, 221, 238);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.users .user img{
+    width: 100%;
+    border-radius: 50%;
+}

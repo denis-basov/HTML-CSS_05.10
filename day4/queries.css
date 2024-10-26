@@ -1,0 +1,59 @@
+/* для экранов менее 1000px */
+@media (max-width: 1000px){
+    .par-1{
+        font-size: 25px;
+        background-color: brown;
+        padding: 20px;
+    }
+
+    .par-2{
+        font-size: 20px;
+        font-style: italic;
+        background-color: aliceblue;
+        padding: 10px;
+        color: brown;
+    }
+
+} 
+
+/* для экранов менее 750px */
+@media (max-width: 750px){
+    .par-1{
+        color: cadetblue;
+        background-color: chocolate;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .par-2{
+        display: none;
+    }
+}
+
+/* медиазапросы для сетки */
+@media (max-width: 1100px){
+    .users{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 850px){
+    .users{
+        gap: 15px;
+    }
+}
+
+@media (max-width: 750px){
+    .users{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 500px){
+    .users{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
