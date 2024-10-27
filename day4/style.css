@@ -36,3 +36,8 @@
     width: 100%;
     border-radius: 50%;
 }
+
+
+.hidden{
+    display: none;
+}
